@@ -1,3 +1,6 @@
+.header {
+  z-index: 100;
+}
 .eyebrow-nav {
   background-color: #412447;
   height: 30px;
