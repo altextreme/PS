@@ -1,7 +1,8 @@
 $(document).ready(function(){
     var element = [
             "#humira-eyebrow",
-            "#home-header"
+            "#home-header",
+            "#patient-header"
         ];
     
     $.ajaxSetup({

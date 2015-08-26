@@ -212,6 +212,9 @@
   float: none;
   margin-left: 0;
 }
+.nav-link.dropdown:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
 .utility-24-hr {
   color: white;
   display: block;
