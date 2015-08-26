@@ -29,6 +29,12 @@
   text-transform: uppercase;
   transition: color 250ms ease;
 }
+@media only screen and (max-width: 991px) {
+  .eyebrow-nav-link {
+    border-left: none;
+    border-right: 1px solid #111;
+  }
+}
 .eyebrow-nav-link.dropdown {
   padding-right: 23px;
   float: none;
