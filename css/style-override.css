@@ -61,6 +61,9 @@
   background-color: rgba(121, 40, 140, 0.5);
   border-left-style: none;
 }
+.eyebrow-nav-link .eyebrow-nav-dropdown-icon {
+  margin-right: 10px;
+}
 .eyebrow-dropdown-menu {
   background-color: #79288c;
   position: absolute;
