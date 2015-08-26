@@ -2,7 +2,7 @@
   background-color: #412447;
   height: 30px;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 767px) {
   .eyebrow-nav {
     height: 40px;
   }
@@ -12,6 +12,11 @@
 }
 .eyebrow-nav-link-wrap {
   float: right;
+}
+@media only screen and (max-width: 991px) {
+  .eyebrow-nav-link-wrap {
+    float: none;
+  }
 }
 .eyebrow-nav-link {
   border-left: 1px solid #111;
@@ -42,4 +47,20 @@
 .eyebrow-nav-link.dropdown.select-medication {
   background-color: rgba(121, 40, 140, 0.5);
   border-left-style: none;
+}
+.eyebrow-dropdown-menu {
+  background-color: #79288c;
+  position: absolute;
+  z-index: 999;
+}
+.eyebrow-dropdown-link {
+  -webkit-transition: background-color 250ms ease;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom: 1px solid rgba(65, 36, 71, 0.5);
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Oswald, sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 12px 15px;
+  transition: background-color 250ms ease;
 }
