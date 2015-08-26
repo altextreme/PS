@@ -13,7 +13,8 @@
 .eyebrow-nav-dropdown {
   float: left;
 }
-.eyebrow-nav-dropdown:hover .eyebrow-nav-link {
+.eyebrow-nav-dropdown:hover .eyebrow-nav-link,
+.eyebrow-nav-dropdown:hover .select-medication {
   background-color: #79288c;
   color: #fff;
 }
