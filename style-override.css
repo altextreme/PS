@@ -34,3 +34,8 @@
 	padding-right: 23px;
     float: none;
 }
+
+.eyebrow-nav-link.dropdown.select-medication {
+	background-color: rgba(121, 40, 140, 0.49);
+	border-left-style: none;
+}
