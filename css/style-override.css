@@ -4,11 +4,13 @@
 .eyebrow-nav {
   background-color: #412447;
   height: 30px;
+  padding: 0;
 }
 @media only screen and (max-width: 767px) {
   .eyebrow-nav {
     height: 40px;
     overflow: visible;
+    padding: 0;
   }
 }
 .eyebrow-nav-dropdown {
