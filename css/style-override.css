@@ -2,7 +2,7 @@
   background-color: #412447;
   height: 30px;
 }
-@media (max-width: 767px) {
+@media only screen and (max-width: 991px) {
   .eyebrow-nav {
     height: 40px;
   }
@@ -12,7 +12,7 @@
 }
 .eyebrow-nav-link {
   border-left: 1px solid #111;
-  color: rgba(255, 255, 255, 0.49);
+  color: rgba(255, 255, 255, 0.5);
   display: block;
   float: left;
   font-family: Oswald, sans-serif;
@@ -31,6 +31,6 @@
   float: none;
 }
 .eyebrow-nav-link.dropdown.select-medication {
-  background-color: rgba(121, 40, 140, 0.49);
+  background-color: rgba(121, 40, 140, 0.5);
   border-left-style: none;
 }

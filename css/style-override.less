@@ -1,13 +1,14 @@
-.eyebrow-nav {
-	background-color: #412447;
-	height: 30px;
-}
+// Variables
+@import "less/variables.less";
 
-	@media (max-width: 767px) {
-		.eyebrow-nav {
-			height: 40px;
-		}	
-	}
+.eyebrow-nav {
+	background-color: @dark-purple;
+	height: 30px;
+
+    @media @mq-tablet {
+        height: 40px;       
+    }
+}
 
 .eyebrow-nav-dropdown {
 	float: left;
@@ -15,7 +16,7 @@
 
 .eyebrow-nav-link {
     border-left: 1px solid #111;
-    color: rgba(255, 255, 255, 0.49);
+    color: fade(#fff, 50%);
     display: block;
     float: left;
     font-family: Oswald, sans-serif;
@@ -28,14 +29,14 @@
     text-decoration: none;
     text-transform: uppercase;
     transition: color 250ms ease;
-}
 
-.eyebrow-nav-link.dropdown {
-	padding-right: 23px;
-    float: none;
-}
+    &.dropdown {
+        padding-right: 23px;
+        float: none;    
 
-.eyebrow-nav-link.dropdown.select-medication {
-	background-color: rgba(121, 40, 140, 0.49);
-	border-left-style: none;
+        &.select-medication {
+            background-color: fade(@purple, 50%);
+            border-left-style: none;
+        }
+    }
 }
