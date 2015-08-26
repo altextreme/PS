@@ -8,6 +8,7 @@
 @media only screen and (max-width: 767px) {
   .eyebrow-nav {
     height: 40px;
+    overflow: visible;
   }
 }
 .eyebrow-nav-dropdown {
@@ -49,6 +50,12 @@
   .eyebrow-nav-link {
     border-left: none;
     border-right: 1px solid #111;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .eyebrow-nav-link {
+    height: 40px;
+    padding-top: 6px;
   }
 }
 .eyebrow-nav-link:hover {
