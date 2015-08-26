@@ -1,3 +1,36 @@
 .eyebrow-nav {
-	background-color: red;
+	background-color: #412447;
+	height: 30px;
+}
+
+	@media (max-width: 767px) {
+		.eyebrow-nav {
+			height: 40px;
+		}	
+	}
+
+.eyebrow-nav-dropdown {
+	float: left;
+}
+
+.eyebrow-nav-link {
+    border-left: 1px solid #111;
+    color: rgba(255, 255, 255, 0.49);
+    display: block;
+    float: left;
+    font-family: Oswald, sans-serif;
+    font-size: 12px;
+    height: 30px;
+    line-height: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 250ms ease;
+}
+
+.eyebrow-nav-link.dropdown {
+	padding-right: 23px;
+    float: none;
 }
