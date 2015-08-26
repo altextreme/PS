@@ -184,6 +184,9 @@
 .nav-link.blue {
   color: #24a7d1;
 }
+.nav-link.fa-icon {
+  font-family: 'Font Awesome Icons', sans-serif;
+}
 .nav-link.single-line {
   line-height: 70px;
   padding-top: 0px;
@@ -201,8 +204,10 @@
     padding-top: 12px;
   }
 }
-.nav-link.fa-icon {
-  font-family: 'Font Awesome Icons', sans-serif;
+.nav-link.dropdown {
+  background-color: transparent;
+  float: none;
+  margin-left: 0;
 }
 .utility-24-hr {
   color: white;
