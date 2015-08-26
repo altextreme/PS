@@ -1,6 +1,7 @@
 $(document).ready(function(){
     var element = [
-            "#humira-eyebrow"
+            "#humira-eyebrow",
+            "#home-header"
         ];
     
     $.ajaxSetup({

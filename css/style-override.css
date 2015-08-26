@@ -94,3 +94,144 @@
   background-color: rgba(255, 255, 255, 0.1);
   color: #fff;
 }
+.home-header {
+  position: absolute;
+  height: 70px;
+  left: 0px;
+  padding: 0 30px;
+  top: 0px;
+  width: 100%;
+  z-index: 3;
+}
+@media only screen and (max-width: 767px) {
+  .home-header {
+    padding: 12px 15px 0;
+  }
+}
+.ps-logo {
+  display: block;
+  float: left;
+  max-width: 210px;
+  padding-top: 23px;
+  width: 100%;
+}
+@media only screen and (max-width: 991px) {
+  .ps-logo {
+    float: none;
+    padding: 15px 15px 0;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .ps-logo.gateway {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .ps-logo.gateway {
+    padding-top: 6px;
+    position: relative;
+  }
+}
+.home-utility-links {
+  position: absolute;
+  right: 30px;
+  top: 0px;
+}
+@media only screen and (max-width: 767px) {
+  .home-utility-links {
+    right: 15px;
+  }
+}
+.nav-link {
+  background-color: transparent;
+  color: #333;
+  display: block;
+  float: left;
+  font-family: Oswald, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  height: 70px;
+  line-height: 18px;
+  padding: 15px 15px 0px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color 250ms ease;
+  -webkit-transition: background-color 250ms ease;
+}
+@media only screen and (max-width: 991px) {
+  .nav-link {
+    height: 60px;
+    padding-top: 10px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .nav-link {
+    height: auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    color: white;
+    float: none;
+    font-size: 1em;
+    line-height: 26px;
+    margin-right: 0px;
+    padding: 12px 15px;
+    text-align: left;
+  }
+}
+.nav-link.white {
+  color: #fff;
+}
+.nav-link.single-line {
+  line-height: 70px;
+  padding-top: 0px;
+}
+@media only screen and (max-width: 991px) {
+  .nav-link.single-line {
+    line-height: 60px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .nav-link.single-line {
+    height: auto;
+    line-height: 26px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+  }
+}
+.utility-24-hr {
+  color: white;
+  display: block;
+  float: left;
+  font-family: Oswald, sans-serif;
+  font-size: 12px;
+  height: 70px;
+  line-height: 70px;
+  margin-left: 15px;
+  padding-left: 30px;
+  position: relative;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 991px) {
+  .utility-24-hr {
+    height: 60px;
+    line-height: 60px;
+    margin-left: 5px;
+  }
+}
+.utility-24-hr .icon.utility-headset {
+  color: #24a7d1;
+  display: inline-block;
+  font-size: 22px;
+  left: 0px;
+  line-height: 22px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: absolute;
+  text-align: center;
+  text-shadow: none;
+  text-transform: none;
+  top: 50%;
+  transform: translate(0px, -50%);
+  -ms-transform: translate(0px, -50%);
+  -webkit-transform: translate(0px, -50%);
+}
