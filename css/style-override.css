@@ -12,6 +12,7 @@
 }
 .eyebrow-nav-dropdown:hover .eyebrow-nav-link {
   background-color: #79288c;
+  color: #fff;
 }
 .eyebrow-nav-dropdown:hover .eyebrow-dropdown-menu {
   display: block;
