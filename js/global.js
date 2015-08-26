@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    var humiraEyebrow = "#humira-eyebrow";
     
     $.ajaxSetup({
         scriptCharset: "utf-8",
@@ -7,13 +8,13 @@ $(document).ready(function(){
 
     $.getJSON('http://whateverorigin.org/get?url=' + encodeURIComponent('http://pharmacysolutions.webflow.io/elements') + '&callback=?', function(data){
         var $page = $(data.contents),
-            $contents = $page.filter('#humira-eyebrow');
+            $contents = $page.filter(humiraEyebrow);
         
         if ($contents.length == 0) {
-            $contents = $page.find('#humira-eyebrow');
+            $contents = $page.find(humiraEyebrow);
         }
         
-        $("#humira-eyebrow").html($contents.html());
+        $(humiraEyebrow).html($contents.html());
     });
-    
+
 });
