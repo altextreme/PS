@@ -10,6 +10,12 @@
 .eyebrow-nav-dropdown {
   float: left;
 }
+.eyebrow-nav-dropdown:hover .eyebrow-nav-link {
+  background-color: #79288c;
+}
+.eyebrow-nav-dropdown:hover .eyebrow-dropdown-menu {
+  display: block;
+}
 .eyebrow-nav-link-wrap {
   float: right;
 }
@@ -39,6 +45,9 @@
     border-left: none;
     border-right: 1px solid #111;
   }
+}
+.eyebrow-nav-link:hover {
+  color: #fff;
 }
 .eyebrow-nav-link.dropdown {
   padding-right: 23px;

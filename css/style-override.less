@@ -12,6 +12,17 @@
 
 .eyebrow-nav-dropdown {
 	float: left;
+
+    &:hover {
+
+        .eyebrow-nav-link {
+            background-color: @purple;
+        }
+
+        .eyebrow-dropdown-menu {
+            display: block;
+        }
+    }
 }
 
 .eyebrow-nav-link-wrap {
@@ -41,6 +52,10 @@
     @media @mq-tablet {
         border-left: none;
         border-right: 1px solid #111;
+    }
+
+    &:hover {
+        color: #fff;
     }
 
     &.dropdown {
