@@ -198,6 +198,9 @@
     padding-top: 12px;
   }
 }
+.nav-link.fa-icon {
+  font-family: 'Font Awesome Icons', sans-serif;
+}
 .utility-24-hr {
   color: white;
   display: block;
