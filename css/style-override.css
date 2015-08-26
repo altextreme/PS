@@ -181,6 +181,9 @@
 .nav-link.white {
   color: #fff;
 }
+.nav-link.blue {
+  color: #24a7d1;
+}
 .nav-link.single-line {
   line-height: 70px;
   padding-top: 0px;
