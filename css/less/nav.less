@@ -54,7 +54,8 @@
 
 	&:hover {
 
-		.nav-link {
+		.nav-link,
+		.nav-link:hover {
 		    background-color: @blue;
     		color: white;
 		}
@@ -73,6 +74,12 @@
     padding-top: 0px;
     top: 100%;
     width: 200px;
+
+    &.search {
+    	left: auto;
+    	padding: 8px;
+	    right: 0px;
+    }
 }
 
 .sub-nav-link {

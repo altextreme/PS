@@ -147,7 +147,8 @@
     right: 15px;
   }
 }
-.dropdown-wrap:hover .nav-link {
+.dropdown-wrap:hover .nav-link,
+.dropdown-wrap:hover .nav-link:hover {
   background-color: #24a7d1;
   color: white;
 }
@@ -162,6 +163,11 @@
   padding-top: 0px;
   top: 100%;
   width: 200px;
+}
+.sub-nav-link-wrap.search {
+  left: auto;
+  padding: 8px;
+  right: 0px;
 }
 .sub-nav-link {
   background-color: rgba(255, 255, 255, 0);
