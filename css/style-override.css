@@ -145,6 +145,7 @@
 @media only screen and (max-width: 991px) {
   .nav-menu {
     display: block;
+    height: 60px;
     overflow: visible;
     text-align: left;
     transform: none;
