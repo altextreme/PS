@@ -27,6 +27,16 @@
 		padding: 15px;
 	}
 
+	@media @mq-mobile {
+	    display: block;
+	    padding: 0;
+	    position: absolute;
+	    top: 54%;
+	    transform: translate(0px, -50%);
+	    	-ms-transform: translate(0px, -50%);
+		   	-webkit-transform: translate(0px, -50%);
+	}
+
 	&.gateway {
 	
 		@media @mq-tablet {
@@ -37,6 +47,26 @@
 			padding-top: 6px;
 			position: relative;
 		}
+	}
+}
+
+.menu-button {
+	
+	@media @mq-tablet {
+	    background-color: @blue;
+	    color: fade(#fff, 80%);
+	    float: none;
+	    font-family: Oswald, sans-serif;
+	    font-size: 12px;
+	    height: 60px;
+	    line-height: 15px;
+	    padding: 9px 0px 0px;
+	    position: absolute;
+	    right: 0px;
+	    text-align: center;
+	    text-transform: uppercase;
+	    top: 0px;
+	    width: 60px;
 	}
 }
 
