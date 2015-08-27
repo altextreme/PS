@@ -54,9 +54,41 @@
 
 	&:hover {
 
+		.nav-link {
+		    background-color: @blue;
+    		color: white;
+		}
+
 		.sub-nav-link-wrap {
 			display: block;
 		}
+	}
+}
+
+.sub-nav-link-wrap {
+	position: absolute;
+    background-color: @blue;
+    left: 0%;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    top: 100%;
+    width: 200px;
+}
+
+.sub-nav-link {
+    background-color: fade(#fff, 0%);
+    color: white;
+    font-family: Oswald, sans-serif;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    transition: background-color 250ms ease;
+    	-webkit-transition: background-color 250ms ease;
+
+	&:hover {
+		background-color: fade(#fff, 20%);
+		color: #fff;
 	}
 }
 
@@ -103,7 +135,7 @@
 	}
 
 	&.blue {
-		color: #24a7d1;
+		color: @blue;
 	}
 
 	&.fa-icon {
@@ -169,7 +201,7 @@
     }
 
     .icon.utility-headset {
-	    color: #24a7d1;
+	    color: @blue;
 	    display: inline-block;
 	    font-size: 22px;
 	    left: 0px;
