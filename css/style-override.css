@@ -148,23 +148,25 @@
     position: relative;
   }
 }
-@media only screen and (max-width: 991px) {
-  .menu-button {
-    background-color: #24a7d1;
-    color: rgba(255, 255, 255, 0.8);
-    float: none;
-    font-family: Oswald, sans-serif;
-    font-size: 12px;
-    height: 60px;
-    line-height: 15px;
-    padding: 9px 0px 0px;
-    position: absolute;
-    right: 0px;
-    text-align: center;
-    text-transform: uppercase;
-    top: 0px;
-    width: 60px;
-  }
+.menu-button {
+  background-color: #24a7d1;
+  color: rgba(255, 255, 255, 0.8);
+  float: none;
+  font-family: Oswald, sans-serif;
+  font-size: 12px;
+  height: 60px;
+  line-height: 15px;
+  padding: 9px 0px 0px;
+  position: absolute;
+  right: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  top: 0px;
+  width: 60px;
+}
+.menu-button .menu-button-icon {
+  font-size: 42px;
+  line-height: 26px;
 }
 .nav-menu {
   position: relative;
