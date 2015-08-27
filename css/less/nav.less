@@ -50,6 +50,16 @@
     }
 }
 
+.dropdown-wrap {
+
+	&:hover {
+
+		.sub-nav-link-wrap {
+			display: block;
+		}
+	}
+}
+
 .nav-link {
 	background-color: transparent;
 	color: #333;
@@ -123,6 +133,18 @@
 
 		&:hover {
 			background-color: fade(#000, 8%);
+		}
+
+		.dropdown-icon {
+			left: 50%;
+		    bottom: 6px;
+		    margin-bottom: 0px;
+		    margin-left: -10px;
+		    margin-top: 0px;
+		    opacity: 0.4;
+		    right: auto;
+		    top: auto;
+		    width: 20px;
 		}
 	}
 }

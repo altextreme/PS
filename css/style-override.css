@@ -147,6 +147,9 @@
     right: 15px;
   }
 }
+.dropdown-wrap:hover .sub-nav-link-wrap {
+  display: block;
+}
 .nav-link {
   background-color: transparent;
   color: #333;
@@ -219,6 +222,17 @@
 }
 .nav-link.dropdown:hover {
   background-color: rgba(0, 0, 0, 0.08);
+}
+.nav-link.dropdown .dropdown-icon {
+  left: 50%;
+  bottom: 6px;
+  margin-bottom: 0px;
+  margin-left: -10px;
+  margin-top: 0px;
+  opacity: 0.4;
+  right: auto;
+  top: auto;
+  width: 20px;
 }
 .utility-24-hr {
   color: white;
