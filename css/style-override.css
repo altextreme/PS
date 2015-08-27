@@ -137,6 +137,21 @@
     position: relative;
   }
 }
+.nav-menu {
+  position: relative;
+  display: inline-block;
+  float: none;
+}
+@media only screen and (max-width: 991px) {
+  .nav-menu {
+    display: block;
+    overflow: visible;
+    text-align: left;
+    transform: none;
+    -ms-transform: none;
+    -webkit-transform: none;
+  }
+}
 .home-utility-links {
   position: absolute;
   right: 30px;
@@ -267,6 +282,11 @@
   right: auto;
   top: auto;
   width: 20px;
+}
+@media only screen and (max-width: 991px) {
+  .nav-link.dropdown .dropdown-icon {
+    bottom: 3px;
+  }
 }
 .utility-24-hr {
   color: white;

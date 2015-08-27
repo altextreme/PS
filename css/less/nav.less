@@ -40,6 +40,21 @@
 	}
 }
 
+.nav-menu {
+	position: relative;
+    display: inline-block;
+    float: none;
+
+    @media @mq-tablet {
+	    display: block;
+	    overflow: visible;
+	    text-align: left;
+	    transform: none;
+		    -ms-transform: none;
+		    -webkit-transform: none;
+    }
+}
+
 .home-utility-links {
 	position: absolute;
     right: 30px;
@@ -184,6 +199,10 @@
 		    right: auto;
 		    top: auto;
 		    width: 20px;
+
+		    @media @mq-tablet {
+		    	bottom: 3px;
+		    }
 		}
 	}
 }
