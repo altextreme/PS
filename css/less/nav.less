@@ -50,25 +50,41 @@
 	}
 }
 
+.mobile-hack {
+	display: inline-block;
+
+	@media @mq-mobile {
+		left: 60px;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 60px;
+	}
+}
+
 .menu-button {
-	background-color: @blue;
-    color: fade(#fff, 80%);
-    float: none;
-    font-family: Oswald, sans-serif;
-    font-size: 12px;
-    height: 60px;
-    line-height: 15px;
-    padding: 9px 0px 0px;
-    position: absolute;
-    right: 0px;
-    text-align: center;
-    text-transform: uppercase;
-    top: 0px;
-    width: 60px;
+	@media @mq-tablet {
+		background-color: @blue;
+	    color: fade(#fff, 80%);
+	    float: none;
+	    font-family: Oswald, sans-serif;
+	    font-size: 12px;
+	    height: 60px;
+	    line-height: 15px;
+	    padding: 9px 0px 0px;
+	    position: absolute;
+	    right: 0px;
+	    text-align: center;
+	    text-transform: uppercase;
+	    top: 0px;
+	    width: 60px;
+	}
 
     .menu-button-icon {
-    	font-size: 42px;
-    	line-height: 26px;
+    	@media @mq-tablet {
+	    	font-size: 42px;
+	    	line-height: 26px;
+	    }
     }
 }
 
