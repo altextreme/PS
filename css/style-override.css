@@ -292,6 +292,11 @@
   background-color: rgba(255, 255, 255, 0.2);
   color: #fff;
 }
+@media only screen and (max-width: 767px) {
+  .sub-nav-link:hover {
+    background-color: transparent;
+  }
+}
 .nav-link {
   background-color: transparent;
   color: #333;
