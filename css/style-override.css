@@ -1,5 +1,16 @@
 .header {
+  background-color: white;
+  height: 70px;
+  padding: 0px 15px 0 30px;
+  text-align: right;
   z-index: 100;
+}
+@media only screen and (max-width: 991px) {
+  .header {
+    height: auto;
+    padding: 0px 0px 0px 15px;
+    text-align: left;
+  }
 }
 .eyebrow-nav {
   background-color: #412447;
@@ -160,6 +171,9 @@
   }
 }
 @media only screen and (max-width: 767px) {
+  .mobile-hack:hover .menu-button {
+    background-color: #197d9e;
+  }
   .mobile-hack:hover .nav-menu {
     display: block;
   }
@@ -206,6 +220,7 @@
 }
 @media only screen and (max-width: 767px) {
   .nav-menu {
+    background-color: #197d9e;
     height: auto;
   }
 }
