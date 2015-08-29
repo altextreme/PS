@@ -159,11 +159,9 @@
     position: relative;
   }
 }
-.mobile-hack {
-  display: inline-block;
-}
 @media only screen and (max-width: 767px) {
   .mobile-hack {
+    display: inline-block;
     position: absolute;
     right: 0;
     top: 0;
