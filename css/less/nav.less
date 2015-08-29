@@ -51,9 +51,13 @@
 }
 
 .mobile-hack {
+	display: inline-block;
+
+	@media @mq-tablet {
+		display: block;
+	}
 
 	@media @mq-mobile {
-		display: inline-block;
 		position: absolute;
 		right: 0;
 		top: 0;
@@ -139,10 +143,18 @@
 		.nav-link:hover {
 		    background-color: @blue;
     		color: white;
+
+    		@media @mq-mobile {
+    			background-color: @dark-blue;
+    		}
 		}
 
 		.sub-nav-link-wrap {
 			display: block;
+
+			@media @mq-mobile {
+				background-color: fade(#000, 20%);
+			}
 		}
 	}
 }
@@ -224,6 +236,10 @@
 
 	&.blue {
 		color: @blue;
+
+		@media @mq-mobile {
+			color: #fff;
+		}
 	}
 
 	&.fa-icon {
