@@ -2,7 +2,10 @@ $(document).ready(function(){
     var element = [
             "#humira-eyebrow",
             "#home-header",
-            "#patient-header"
+            "#patient-header",
+            "#patient-header-logged-in",
+            "#hcp-header",
+            "#hcp-header-logged-in"
         ];
     
     $.ajaxSetup({
