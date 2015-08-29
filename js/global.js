@@ -5,7 +5,13 @@ $(document).ready(function(){
             "#patient-header",
             "#patient-header-logged-in",
             "#hcp-header",
-            "#hcp-header-logged-in"
+            "#hcp-header-logged-in",
+            "#24-hour-panel",
+            "#patient-footer",
+            "#patient-footer-logged-in",
+            "#hcp-footer",
+            "#hcp-footer-logged-in",
+            "#global-footer"
         ];
     
     $.ajaxSetup({

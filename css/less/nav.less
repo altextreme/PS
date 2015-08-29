@@ -1,4 +1,25 @@
 // ===========================
+// HEADER
+// ===========================
+.header {
+    background-color: white;
+    height: 70px;
+    padding: 0px 15px 0 30px;
+    text-align: right;
+    z-index: 100;
+
+    @media @mq-tablet {
+        height: auto;
+        padding: 0px 0px 0px 15px;
+    }
+
+    @media @mq-mobile {
+        height: 60px;
+        text-align: left;
+    }
+}
+
+// ===========================
 // MAIN NAV
 // ===========================
 .home-header {
