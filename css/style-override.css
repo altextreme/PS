@@ -11,6 +11,12 @@
     padding: 0px 0px 0px 15px;
   }
 }
+@media only screen and (max-width: 767px) {
+  .header {
+    height: 60px;
+    text-align: left;
+  }
+}
 .eyebrow-nav {
   background-color: #412447;
   height: 30px;
