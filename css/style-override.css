@@ -330,6 +330,7 @@
 }
 .nav-link:hover {
   background-color: rgba(0, 0, 0, 0.08);
+  border: none;
 }
 .nav-link.white {
   color: #fff;
