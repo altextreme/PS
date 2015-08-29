@@ -232,6 +232,10 @@
 
 	&:hover {
 		background-color: fade(#000, 8%);
+
+		@media @mq-mobile {
+			background-color: transparent;
+		}
 	}
 
 	&.white {
@@ -243,6 +247,12 @@
 
 		@media @mq-mobile {
 			color: #fff;
+		}
+
+		&:hover {
+			@media @mq-mobile {
+				border-bottom-color: fade(#000, 20%);
+			}
 		}
 	}
 

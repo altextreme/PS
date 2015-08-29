@@ -336,6 +336,11 @@
 .nav-link:hover {
   background-color: rgba(0, 0, 0, 0.08);
 }
+@media only screen and (max-width: 767px) {
+  .nav-link:hover {
+    background-color: transparent;
+  }
+}
 .nav-link.white {
   color: #fff;
 }
@@ -345,6 +350,11 @@
 @media only screen and (max-width: 767px) {
   .nav-link.blue {
     color: #fff;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .nav-link.blue:hover {
+    border-bottom-color: rgba(0, 0, 0, 0.2);
   }
 }
 .nav-link.fa-icon {
