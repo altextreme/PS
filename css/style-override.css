@@ -527,6 +527,31 @@ input:focus {
     padding-left: 15px;
   }
 }
+.footer .button {
+  background-color: rgba(36, 167, 209, 0.75);
+  color: white;
+  display: inline-block;
+  font-family: Oswald, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-bottom: 1.7em;
+  padding: 20px 30px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: uppercase;
+  transition: background-color 250ms ease;
+  -webkit-transition: background-color 250ms ease;
+}
+@media only screen and (max-width: 767px) {
+  .footer .button {
+    font-size: 12px;
+    line-height: 16px;
+    padding: 12px 15px;
+    text-shadow: none;
+  }
+}
 .footer-logo {
   margin-bottom: 1.8em;
   max-width: 220px;
