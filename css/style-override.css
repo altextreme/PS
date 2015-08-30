@@ -552,6 +552,16 @@ input:focus {
     text-shadow: none;
   }
 }
+.footer .checkbox-radio-field {
+  line-height: 150%;
+  margin-bottom: 5px;
+  padding-left: 20px;
+  text-shadow: none;
+}
+.footer .checkbox-radio {
+  margin-left: -20px;
+  margin-top: 7px;
+}
 .footer-logo {
   margin-bottom: 1.8em;
   max-width: 220px;
