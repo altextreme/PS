@@ -40,6 +40,8 @@ $(document).ready(function(){
                     path = location.pathname.split("/")[1];
                 }
 
+                console.log(path);
+
                 if ($(this).attr("href").indexOf(path) > -1) {
                     $(this).addClass("w--current");
                 }
