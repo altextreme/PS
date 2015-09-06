@@ -31,7 +31,6 @@ $(document).ready(function(){
             $(el).html($contents.html());
         }).done(function(){
             $('.w-nav-link[href^="/' + location.pathname.split("webflio.io/")[1] + '"]').addClass('w--current');
-            console.log("test");
         });
     });
 
