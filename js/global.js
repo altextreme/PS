@@ -35,9 +35,9 @@ $(document).ready(function(){
                 var path;
                 
                 if ($(this).attr("href").indexOf("webflow.io") > -1){
-                    path = location.pathname.split("webflow.io/")[1];
+                    path = location.pathname.split("webflow.io/")[1].toString();
                 } else {
-                    path = location.pathname.split("/")[1];
+                    path = location.pathname.split("/")[1].toString();
                 }
 
                 console.log("path = " + path);
@@ -51,9 +51,9 @@ $(document).ready(function(){
                 var path;
                 
                 if ($(this).attr("href").indexOf("webflow.io") > -1){
-                    path = location.pathname.split("webflow.io/")[1];
+                    path = location.pathname.split("webflow.io/")[1].toString();
                 } else {
-                    path = location.pathname.split("/")[1];
+                    path = location.pathname.split("/")[1].toString();
                 }
 
                 if ($(this).attr("href").indexOf(path) > -1) {
