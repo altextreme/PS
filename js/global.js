@@ -29,6 +29,8 @@ $(document).ready(function(){
             }
             
             $(el).html($contents.html());
+        }).done(function(){
+            $('.w-nav-link[href^="/' + location.pathname.split("/")[1] + '"]').addClass('w--current');
         });
     });
 
