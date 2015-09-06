@@ -31,6 +31,8 @@ $(document).ready(function(){
             $(el).html($contents.html());
         }).done(function(){
             $('.w-nav-link[href^="/' + location.pathname.split("webflio.io/")[1] + '"]').addClass('w--current');
+
+            $('.w-dropdown-link[href^="/' + location.pathname.split("webflio.io/")[1] + '"]').addClass('w--current').closest(".w-nav-link").addClass("w--current");
         });
     });
 
