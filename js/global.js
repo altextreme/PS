@@ -29,6 +29,7 @@ $(document).ready(function(){
             }
             
             $(el).html($contents.html());
+        
         }).done(function(){
 
             var path;
@@ -40,7 +41,6 @@ $(document).ready(function(){
             }
 
             $('.w-nav-link[href^="/' + path + '"]').addClass('w--current');
-
             $('.w-dropdown-link[href^="/' + path + '"]').addClass('w--current').closest(".w-nav-link").addClass("w--current");
         });
     });
