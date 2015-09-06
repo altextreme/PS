@@ -31,40 +31,17 @@ $(document).ready(function(){
             $(el).html($contents.html());
         }).done(function(){
 
-            $(".w-nav-link").each(function(){
-                var path;
+            var path;
                 
-                if ($(this).attr("href").indexOf("webflow.io") > -1){
-                    path = location.pathname.split("webflow.io/")[1].toString();
-                } else {
-                    path = location.pathname.split("/")[1].toString();
-                }
+            if (location.pathname.indexOf("webflow.io") > -1){
+                path = location.pathname.split("webflow.io/")[1];
+            } else {
+                path = location.pathname.split("/")[1];
+            }
 
-                console.log("path = " + path);
+            $('.w-nav-link[href^="/' + path + '"]').addClass('w--current');
 
-                if ($(this).attr("href").indexOf(path) > -1) {
-                    $(this).addClass("w--current");
-                }
-            });
-
-            $(".w-dropdown-link").each(function(){
-                var path;
-                
-                if ($(this).attr("href").indexOf("webflow.io") > -1){
-                    path = location.pathname.split("webflow.io/")[1].toString();
-                } else {
-                    path = location.pathname.split("/")[1].toString();
-                }
-
-                if ($(this).attr("href").indexOf(path) > -1) {
-                    $(this).addClass("w--current");
-                    $(this).closest(".w-nav-link").addClass("w--current");
-                }
-            });
-
-            // $('.w-nav-link[href^="/' + location.pathname.split("/")[1] + '"]').addClass('w--current');
-
-            // $('.w-dropdown-link[href^="/' + location.pathname.split("/")[1] + '"]').addClass('w--current').closest(".w-nav-link").addClass("w--current");
+            $('.w-dropdown-link[href^="/' + path + '"]').addClass('w--current').closest(".w-nav-link").addClass("w--current");
         });
     });
 
