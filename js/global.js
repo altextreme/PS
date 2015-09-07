@@ -43,7 +43,7 @@ $(document).ready(function(){
 
                     if ($(this).hasClass("w-dropdown-link")) {
                         $(this).closest(".w-dropdown").find(".nav-link").addClass(activeClass);
-                        console.log("test");
+                        console.log("dropdown class added");
                     }
 
                 }
