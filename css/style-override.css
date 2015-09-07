@@ -60,6 +60,10 @@
   font-weight: 700;
   letter-spacing: 0px;
 }
+#patient-isi .container,
+#hcp-isi .container {
+  margin-bottom: 20px;
+}
 #patient-isi .important-text,
 #hcp-isi .important-text {
   color: #197d9e;
