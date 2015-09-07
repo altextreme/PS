@@ -32,21 +32,37 @@ $(document).ready(function(){
         
         }).done(function(){
 
-            var url = window.location.pathname, 
-                urlRegExp = new RegExp(url.replace(/\/$/,'') + "$"),
-                activeClass = "w--current";
+            // var url = window.location.pathname, 
+            //     urlRegExp = new RegExp(url.replace(/\/$/,'') + "$"),
+            //     activeClass = "w--current";
             
-            $('.nav-link').each(function(){
-                if (urlRegExp.test($(this).href.replace(/\/$/,''))){
+            // $('.nav-link').each(function(){
+            //     if (urlRegExp.test($(this).href.replace(/\/$/,''))){
+            //         $(this).addClass(activeClass);
+            //     }
+            // });
+
+            // $('.w-dropdown-link').each(function(){
+            //     if (urlRegExp.test($(this).href.replace(/\/$/,''))){
+            //         $(this).addClass(activeClass).closest(".w-dropdown").find(".nav-link").addClass(activeClass);
+            //     }
+            // });
+
+            var url = window.location.href,
+                activeClass = "w--current";
+
+            $('.nav-link, .w-dropdown-link').each(function(){
+                var navHref = $(this).attr("href");
+                
+                if (url.indexOf(navHref) !== -1){
                     $(this).addClass(activeClass);
+                }
+
+                else if (url.indexOf(navHref) !== -1 && $(this).hasClass(".w-dropdown-link")) {
+                    $(this).closest(".w-dropdown").find(".nav-link").addClass(activeClass)
                 }
             });
 
-            $('.w-dropdown-link').each(function(){
-                if (urlRegExp.test($(this).href.replace(/\/$/,''))){
-                    $(this).addClass(activeClass).closest(".w-dropdown").find(".nav-link").addClass(activeClass);
-                }
-            });
         });
     });
 
