@@ -32,6 +32,10 @@
     padding: 20px 0;
   }
 }
+#24-hour-panel-hcp.page-section .row,
+#24-hour-panel.page-section .row {
+  overflow: visible;
+}
 .eyebrow-nav {
   background-color: #412447;
   height: 30px;
