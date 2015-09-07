@@ -15,33 +15,33 @@
 .input:focus {
   border-color: #24a7d1;
 }
-#24-hour-panel-hcp.page-section,
-#24-hour-panel.page-section {
+.page-section#24-hour-panel,
+.page-section#24-hour-panel-hcp {
   border-bottom: none;
   padding: 4vh 0 1vh;
 }
 @media only screen and (max-width: 991px) {
-  #24-hour-panel-hcp.page-section,
-  #24-hour-panel.page-section {
+  .page-section#24-hour-panel,
+  .page-section#24-hour-panel-hcp {
     padding: 40px 0;
   }
 }
 @media only screen and (max-width: 767px) {
-  #24-hour-panel-hcp.page-section,
-  #24-hour-panel.page-section {
+  .page-section#24-hour-panel,
+  .page-section#24-hour-panel-hcp {
     padding: 20px 0;
   }
 }
-#24-hour-panel-hcp.page-section .row,
-#24-hour-panel.page-section .row {
+.page-section#24-hour-panel .row,
+.page-section#24-hour-panel-hcp .row {
   overflow: visible;
 }
-#24-hour-panel-hcp.page-section a,
-#24-hour-panel.page-section a {
+.page-section#24-hour-panel a,
+.page-section#24-hour-panel-hcp a {
   color: #24a7d1;
 }
-#24-hour-panel-hcp.page-section .tooltip-underscore,
-#24-hour-panel.page-section .tooltip-underscore {
+.page-section#24-hour-panel .tooltip-underscore,
+.page-section#24-hour-panel-hcp .tooltip-underscore {
   color: #24a7d1;
   border-bottom: 1px dashed #24a7d1;
   text-decoration: none;
