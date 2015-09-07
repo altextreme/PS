@@ -36,7 +36,7 @@ $(document).ready(function(){
                 urlRegExp = new RegExp(url.replace(/\/$/,'') + "$"),
                 activeClass = "w--current";
             
-            $('.w-nav-link').each(function(){
+            $('.nav-link').each(function(){
                 if (urlRegExp.test(this.href.replace(/\/$/,''))){
                     $(this).addClass(activeClass);
                 }
@@ -44,7 +44,7 @@ $(document).ready(function(){
 
             $('.w-dropdown-link').each(function(){
                 if (urlRegExp.test(this.href.replace(/\/$/,''))){
-                    $(this).addClass(activeClass).closest(".nav-link").addClass(activeClass);
+                    $(this).addClass(activeClass).closest.(".w-dropdown").find(".nav-link").addClass(activeClass);
                 }
             });
         });
