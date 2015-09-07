@@ -54,6 +54,10 @@
 #hcp-isi h2.no-top-pad {
   padding-top: 0;
 }
+#patient-isi h3.all-paragraphs,
+#hcp-isi h3.all-paragraphs {
+  color: #666;
+}
 #patient-isi .h3,
 #hcp-isi .h3 {
   color: #197d9e;
