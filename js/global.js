@@ -44,7 +44,7 @@ $(document).ready(function(){
 
             $('.w-dropdown-link').each(function(){
                 if (urlRegExp.test(this.href.replace(/\/$/,''))){
-                    $(this).addClass(activeClass).closest.(".w-dropdown").find(".nav-link").addClass(activeClass);
+                    $(this).addClass(activeClass).closest(".w-dropdown").find(".nav-link").addClass(activeClass);
                 }
             });
         });
