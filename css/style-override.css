@@ -40,6 +40,10 @@
 [id='24-hour-panel-hcp '].page-section a {
   color: #24a7d1;
 }
+[id='24-hour-panel'].page-section a.button,
+[id='24-hour-panel-hcp '].page-section a.button {
+  color: #fff;
+}
 [id='24-hour-panel'].page-section .tooltip-underscore,
 [id='24-hour-panel-hcp '].page-section .tooltip-underscore {
   color: #24a7d1;
