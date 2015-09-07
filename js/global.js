@@ -7,6 +7,7 @@ $(document).ready(function(){
             "#hcp-header",
             "#hcp-header-logged-in",
             "#24-hour-panel",
+            "#24-hour-panel-hcp",
             "#patient-footer",
             "#patient-footer-logged-in",
             "#hcp-footer",
