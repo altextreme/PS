@@ -41,7 +41,7 @@ $(document).ready(function(){
                 if (url.indexOf(navHref) !== -1){
                     $(this).addClass(activeClass);
 
-                    if ($(this).hasClass(".w-dropdown-link")) {
+                    if ($(this).hasClass("w-dropdown-link")) {
                         $(this).closest(".w-dropdown").find(".nav-link").addClass(activeClass);
                         console.log("test");
                     }
