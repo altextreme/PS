@@ -12,7 +12,9 @@ $(document).ready(function(){
             "#patient-footer-logged-in",
             "#hcp-footer",
             "#hcp-footer-logged-in",
-            "#global-footer"
+            "#global-footer",
+            "#patient-isi",
+            "#hcp-isi"
         ];
     
     $.ajaxSetup({
