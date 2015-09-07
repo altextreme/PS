@@ -36,6 +36,10 @@
 #24-hour-panel.page-section .row {
   overflow: visible;
 }
+#24-hour-panel-hcp.page-section a,
+#24-hour-panel.page-section a {
+  color: #24a7d1;
+}
 .eyebrow-nav {
   background-color: #412447;
   height: 30px;
