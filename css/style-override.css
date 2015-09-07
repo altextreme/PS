@@ -40,6 +40,11 @@
 #24-hour-panel.page-section a {
   color: #24a7d1;
 }
+#24-hour-panel-hcp.page-section .tooltip-underscore,
+#24-hour-panel.page-section .tooltip-underscore {
+  color: #24a7d1;
+  border-bottom: 1px dashed #24a7d1;
+}
 .eyebrow-nav {
   background-color: #412447;
   height: 30px;
