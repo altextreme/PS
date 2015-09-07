@@ -47,8 +47,8 @@
 [id='24-hour-panel'].page-section .tooltip-underscore,
 [id='24-hour-panel-hcp '].page-section .tooltip-underscore {
   color: #24a7d1;
-  border-bottom: 1px dashed #24a7d1;
-  text-decoration: none;
+  border-bottom: none;
+  text-decoration: underline;
 }
 .eyebrow-nav {
   background-color: #412447;
