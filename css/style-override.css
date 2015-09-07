@@ -50,6 +50,29 @@
   border-bottom: none;
   text-decoration: underline;
 }
+#patient-isi h2.no-top-pad,
+#hcp-isi h2.no-top-pad {
+  padding-top: 0;
+}
+#patient-isi .h3,
+#hcp-isi .h3 {
+  color: #197d9e;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+#patient-isi .important-text,
+#hcp-isi .important-text {
+  color: #197d9e;
+  font-weight: 700;
+}
+#patient-isi .bold-type,
+#hcp-isi .bold-type {
+  font-weight: 700;
+}
+#patient-isi ul,
+#hcp-isi ul {
+  list-style-type: disc;
+}
 .eyebrow-nav {
   background-color: #412447;
   height: 30px;
