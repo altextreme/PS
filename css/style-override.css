@@ -358,6 +358,10 @@
     background-color: transparent;
   }
 }
+.nav-link.w--current {
+  background-color: #79288c;
+  color: #fff;
+}
 .nav-link.white {
   color: #fff;
 }
