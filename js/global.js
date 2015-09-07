@@ -37,13 +37,13 @@ $(document).ready(function(){
                 activeClass = "w--current";
             
             $('.nav-link').each(function(){
-                if (urlRegExp.test(this.href.replace(/\/$/,''))){
+                if (urlRegExp.test($(this).href.replace(/\/$/,''))){
                     $(this).addClass(activeClass);
                 }
             });
 
             $('.w-dropdown-link').each(function(){
-                if (urlRegExp.test(this.href.replace(/\/$/,''))){
+                if (urlRegExp.test($(this).href.replace(/\/$/,''))){
                     $(this).addClass(activeClass).closest(".w-dropdown").find(".nav-link").addClass(activeClass);
                 }
             });
