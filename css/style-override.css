@@ -441,6 +441,17 @@
     top: 50%;
   }
 }
+.nav-link.dropdown.w--current {
+  background-color: #79288c;
+  color: #fff;
+}
+@media only screen and (max-width: 767px) {
+  .nav-link.dropdown.w--current {
+    background-color: transparent;
+    border-left: 4px solid rgba(255, 255, 255, 0.4);
+    padding-left: 11px;
+  }
+}
 .utility-24-hr {
   color: white;
   display: block;

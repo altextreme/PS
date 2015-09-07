@@ -343,6 +343,17 @@
 			    top: 50%;
 		    }
 		}
+
+		&.w--current {
+		    background-color: @purple;
+	    	color: #fff;
+
+	    	@media @mq-mobile {
+			    background-color: transparent;
+			    border-left: 4px solid fade(#fff, 40%);
+	    		padding-left: 11px;
+	    	}
+		}
 	}
 }
 
