@@ -57,6 +57,7 @@
 #patient-isi h3.all-paragraphs,
 #hcp-isi h3.all-paragraphs {
   color: #666;
+  margin-bottom: 20px;
 }
 #patient-isi .h3,
 #hcp-isi .h3 {
