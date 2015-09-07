@@ -15,6 +15,23 @@
 .input:focus {
   border-color: #24a7d1;
 }
+#24-hour-panel-hcp.page-section,
+#24-hour-panel.page-section {
+  border-bottom: none;
+  padding: 4vh 0 1vh;
+}
+@media only screen and (max-width: 991px) {
+  #24-hour-panel-hcp.page-section,
+  #24-hour-panel.page-section {
+    padding: 40px 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #24-hour-panel-hcp.page-section,
+  #24-hour-panel.page-section {
+    padding: 20px 0;
+  }
+}
 .eyebrow-nav {
   background-color: #412447;
   height: 30px;
