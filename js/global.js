@@ -32,16 +32,21 @@ $(document).ready(function(){
         
         }).done(function(){
 
-            var path;
-                
-            if (location.pathname.indexOf("webflow.io") > -1){
-                path = location.pathname.split("webflow.io/")[1];
-            } else {
-                path = location.pathname.split("/")[1];
-            }
+            var url = window.location.pathname, 
+                urlRegExp = new RegExp(url.replace(/\/$/,'') + "$"),
+                activeClass = "w--current";
+            
+            $('.w-nav-link').each(function(){
+                if (urlRegExp.test(this.href.replace(/\/$/,''))){
+                    $(this).addClass(activeClass);
+                }
+            });
 
-            $('.w-nav-link[href^="/' + path + '"]').addClass('w--current');
-            $('.w-dropdown-link[href^="/' + path + '"]').addClass('w--current').closest(".w-nav-link").addClass("w--current");
+            $('.w-dropdown-link').each(function(){
+                if (urlRegExp.test(this.href.replace(/\/$/,''))){
+                    $(this).addClass(activeClass).closest(".w-nav-link").addClass(activeClass);
+                }
+            });
         });
     });
 
