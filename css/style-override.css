@@ -405,6 +405,9 @@
     padding-top: 12px;
   }
 }
+.nav-link.single-line.w--current {
+  background-color: transparent;
+}
 .nav-link.dropdown {
   background-color: transparent;
   float: none;
