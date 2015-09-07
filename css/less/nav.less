@@ -308,7 +308,9 @@
 		}
 
 		&.w--current {
-			background-color: transparent;
+			@media @mq-mobile {
+				background-color: transparent;
+			}
 		}
 	}
 

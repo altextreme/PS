@@ -405,8 +405,10 @@
     padding-top: 12px;
   }
 }
-.nav-link.single-line.w--current {
-  background-color: transparent;
+@media only screen and (max-width: 767px) {
+  .nav-link.single-line.w--current {
+    background-color: transparent;
+  }
 }
 .nav-link.dropdown {
   background-color: transparent;
