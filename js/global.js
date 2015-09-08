@@ -33,7 +33,9 @@ $(document).ready(function(){
             
             $(el).html($contents.html());
         
+        // ========================================
         // EXECUTE ONCE GLOBAL ELEMENTS LOAD
+        // ========================================
         }).done(function(){
 
             var url = window.location.href,
